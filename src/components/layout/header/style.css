@@ -1,0 +1,8 @@
+header{
+    width: 100%;
+    height: auto;
+    background-color: #3c3c3b;
+}
+header a{
+    color: white !important;
+}
