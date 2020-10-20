@@ -1,0 +1,18 @@
+.page-footer{
+    background-color: #131313;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+.page-footer a{
+    color: white;
+    opacity: 0.4;
+}
+.page-footer a:hover{
+    color: #c51f1f
+}
+.page-footer .signup{
+    opacity: 0.4;
+}
