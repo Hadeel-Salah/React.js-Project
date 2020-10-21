@@ -23,12 +23,10 @@ function Footer(){
                             <span className="signup">Sign Up for Our Newsletter:</span></label>
                         <div className="control">
                             <input className="email" type="email" id="newsletter" placeholder="Enter your email address"></input>
-                        </div>
-                    </div>
-                    <div className="actions">
-                        <button className="action subscribe btn-danger" title="Submit" type="submit">
-                        <span>Submit</span>
-                        </button>
+                            <button className="action subscribe btn-danger" title="Submit" type="submit">
+                            <span>Submit</span>
+                            </button>
+                            </div>
                     </div>
                 </form>
                 </div>   
