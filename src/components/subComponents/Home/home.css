@@ -1,5 +1,6 @@
 .Home{
     height:400vh;
+    position: relative;
 }
 .firstSection img{
     width: 100%;
@@ -29,6 +30,48 @@
     position: relative;
     top: 20px;
     left: 40%;
+}
+.ThirdSection {
+    position: absolute;
+    top:30%;
+    background-color: #eceaea;
+    width: 100%;
+    height: auto;
+}
+.ThirdSection h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.books_container{
+    margin-top: 150px;
+    margin-left: 10px;
+    margin-top: 10px;
 
+}
+.BookSnippet{
+    margin-bottom: 20px;
+}
+.BookSnippet h1{
+    font-size: 15px;
+    text-align: left;
+    font-weight: 600;
+}
+.BookSnippet h2{
+    font-size: 20px;
+    font-weight: 1000;
+}
+.BookSnippet img{
+    width: auto;
+    height: 250px;
+}
+.BookSnippet button{
+    border-color: #ec6611;
+    background-color: #ec6611;
+    font-size: 12px;
+    width: 100%;
+    color: #fff;
+    margin-top: .5rem;
+    width: 120px;
+    padding-left:.5rem;
 
 }
