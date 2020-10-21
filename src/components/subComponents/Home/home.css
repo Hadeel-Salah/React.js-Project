@@ -73,5 +73,26 @@
     margin-top: .5rem;
     width: 120px;
     padding-left:.5rem;
+}
+.FourthSection{
+    position: absolute;
+    top:80%;
+}
 
+.FourthSection .column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+.FourthSection .row{
+   margin-left: 100px;
+}
+.FourthSection .row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.FourthSection img{
+    width: 100%;
+    height: 300px;
 }
