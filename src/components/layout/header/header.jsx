@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './style.css'
 
 function Header(){
@@ -9,9 +10,11 @@ function Header(){
             <a className="m-5" href="#">Subscribe</a>
           </div>
           <div className="col-4 text-center">
+              <Link to='/'>
                 <strong className="logo hidden-xs hidden-sm">
-                <h1 width="135" height="64" className="hidden-xs hidden-sm ml-5 text-uppercase logo_name">Book store</h1>
-            </strong> 
+                  <h1 width="135" height="64" className="hidden-xs hidden-sm ml-5 text-uppercase logo_name">Book store</h1>
+                </strong> 
+            </Link>
           </div>
           <div className="col-4 d-flex justify-content-end align-items-center">
             <a href="#">
