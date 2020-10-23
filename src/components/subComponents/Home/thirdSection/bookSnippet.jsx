@@ -7,7 +7,7 @@ const BookSnippet = (props) =>{
             <img src={props.img}></img>
             <h1> {props.title}</h1>
             <h2> $ {props.price}</h2>
-            <Link to={`/book/${props.id}`} >
+            <Link to={`/book/${props.id}`} key={props.id} >
                 <button className="btn">More Details</button>
             </Link>
         </div>
