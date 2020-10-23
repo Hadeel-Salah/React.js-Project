@@ -7,6 +7,13 @@ header a{
     color: white !important;
 }
 header h1.logo_name{
-    color: #c51f1f;
+    color: #e08216;
     font-family: 'Times New Roman', Times, serif
+}
+header .background{
+   background-color: #e08216 !important;
+
+}
+header .borders{
+    border-color: #e08216;
 }
