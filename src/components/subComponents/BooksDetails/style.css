@@ -1,0 +1,46 @@
+.Details{
+    background: linear-gradient(110deg, #db7c10cc 60%, #e08216 60%);
+    color: white;
+    height: auto;
+    width: 100%;
+}
+.grid{
+    margin-top: 100px;
+}
+.card--details h6, .card--details span, .card--details h1{
+    font-family: cursive;
+    font-weight: 800;
+}
+.about{
+    height: 70vh;
+    width: 100%;
+    background-color: aliceblue;
+    position: relative;
+    padding-bottom: 20px;
+
+}
+.about h1, .about p{
+    text-align: left;
+    font-family: cursive;
+    padding: 10px 0 0 50px;
+
+}
+.about h1{
+    padding: 50px 0 0 100px
+}
+.about p{
+    width: 1000px;
+
+}
+.about button{
+    border-radius: 15px;
+    text-align: center;
+    background-color: #e08216;
+    width: 400px;
+    height: 50px;
+    font-family: cursive;
+    border-style: none;
+    position: absolute;
+    left: 500px;
+    
+}
