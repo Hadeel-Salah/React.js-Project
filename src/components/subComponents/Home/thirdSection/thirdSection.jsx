@@ -6,7 +6,7 @@ import _ from 'lodash';
 export default function ThirdSection(){
     return(
         <div className="ThirdSection">
-            <h1>Most popuralr books </h1>
+            <h1>Most Popular Books </h1>
             <div className="books_container">
                 <div className="container">
                     <div className="row">
