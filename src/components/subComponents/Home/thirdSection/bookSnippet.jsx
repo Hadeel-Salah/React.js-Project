@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom'
 
 const BookSnippet = (props) =>{
         return(
@@ -6,7 +7,9 @@ const BookSnippet = (props) =>{
             <img src={props.img}></img>
             <h1> {props.title}</h1>
             <h2> $ {props.price}</h2>
-            <button className="btn">More Details</button>
+            <Link to={`/book/${props.id}`} >
+                <button className="btn">More Details</button>
+            </Link>
         </div>
 
 
